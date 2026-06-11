@@ -1,5 +1,7 @@
 import { useState } from 'react'
 
+const BASE_URL = import.meta.env.BASE_URL
+
 function App() {
   const [menuOpen, setMenuOpen] = useState(false)
 
@@ -193,7 +195,7 @@ function App() {
             <div className="md:col-span-5 flex justify-center">
               <div className="w-64 h-64 md:w-80 md:h-80 border-2 border-[#1A1A1A]">
                 <img
-                  src="/images/avatar.jpg"
+                  src={`${BASE_URL}images/avatar.jpg`}
                   alt="李雅晴"
                   className="w-full h-full object-cover"
                 />
