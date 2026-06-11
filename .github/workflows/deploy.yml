@@ -33,7 +33,7 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          VITE_BASE_URL: /personal-homepage/
+          VITE_BASE_URL: /yexiangxiang/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
