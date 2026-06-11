@@ -15,41 +15,98 @@ function App() {
       title: 'DeFi 产品经理',
       company: '隐研科技',
       period: '2020.8 — 2025.12',
-      description: '基于 Uniswap V2 机制的 AMM DEX 产品设计与迭代，规划杠杆借贷产品，设计流动性激励活动。',
       highlight: 'TVL 最高达 26.3M',
-      tags: ['AMM DEX', 'SwapV2', 'Lending', 'Mining']
+      tags: ['AMM DEX', 'SwapV2', 'Lending', 'Mining'],
+      responsibilities: [
+        '负责基于 Uniswap V2 机制的 AMM DEX 产品设计与迭代，在保留恒定乘积做市商模型核心逻辑的基础上，围绕交易流程、信息呈现进行用户体验深度优化，包括更直观的盈亏展示、无常损失预估、LP份额。',
+        '规划杠杆借贷产品，设计抵押品管理（支持LP抵押）、风险预警及爆仓抢拍流程，结合链上预言机价格锚定机制，保障清算逻辑的安全性与公平性。',
+        '建立产品需求分析与竞品研究机制，持续追踪Curve、Uniswap、Aave、Compound等头部协议迭代动态，输出产品改进路线图，推动协议在链上部署。',
+        '协同市场与BD团队，设计流动性激励活动（Liquidity Mining）方案，通过Mining激励与奖励释放曲线优化，提升资金利用率与LP留存率。',
+      ],
+      achievements: '高峰期swap的tvl达26.3M代币，日兑换量高达6.68M代币。'
     },
     {
       title: '高级产品规划工程师',
       company: '网宿科技',
       period: '2019.9 — 2019.12',
-      description: '规划云安全平台新产品线自助功能，建设门户，提升平台影响力，规划渠道商功能。',
       highlight: '活动带来 10万+ 业绩',
-      tags: ['云安全', '网宿网盾', 'DDoS', '渠道商']
+      tags: ['云安全', '网宿网盾', 'DDoS', '渠道商'],
+      responsibilities: [
+        '规划平台的新产品线自助功能，优化现有自助平台，提升平台的用户体验。',
+        '建设门户，提升平台影响力，提供更官方的有价值的文档和指南。',
+        '定期更新平台资讯，规划平台性质活动促销，并对数据进行跟踪和复盘。',
+        '规划渠道商功能，对接沟通并接入银联支付方式。',
+      ],
+      achievements: '活动上线1个月带来10万+业绩，有效销售线索增加10+。'
     },
     {
       title: '产品经理',
       company: '智顶互动',
       period: '2018.9 — 2019.8',
-      description: '挖掘新项目，输出可行性分析，对项目进行功能设计和规划，制定运营规划。',
       highlight: '单用户收入达日均 0.02元',
-      tags: ['小程序', '中老年', '音乐相册', '步数宝']
+      tags: ['小程序', '中老年', '音乐相册', '步数宝', '矩阵'],
+      responsibilities: [
+        '负责挖掘新项目，输出可行性分析，并筹备项目立项。',
+        '对项目进行功能设计和规划，输出原型和需求文档，组织开发进行需求评审，推进项目上线。',
+        '制定项目的运营规划，并定期输出数据报表进行分析。',
+      ],
+      achievements: '输出种子小程序矩阵，单用户收入达到日均0.02元。'
     },
     {
       title: '产品经理',
       company: '青苹果健康',
       period: '2017.7 — 2018.8',
-      description: '负责小程序商城产品设计，与技术团队沟通协调，推进敏捷迭代。',
       highlight: '商城半年业绩突破 50万',
-      tags: ['医疗电商', '小程序', '拼团', '分销']
+      tags: ['医疗电商', '小程序', '拼团', '分销', '商品管理', '订单管理', 'App双端'],
+      responsibilities: [
+        '负责小程序商城的产品设计和规划，挖掘潜在需求，收集客户反馈，独立撰写需求文档。',
+        '负责与技术团队沟通，协调开发人员，跟进项目进度，推进敏捷迭代。',
+        '分析线上数据，埋点并跟踪数据验证，驱动产品持续改进和优化。',
+        '重构商品管理系统，优化订单系统，协助策划平台运营工具，提升运营效率。',
+      ],
+      achievements: '商城上线半年业绩突破50万，协助运营活动10+次。'
     },
     {
       title: '高级产品策划',
       company: '游族网络',
       period: '2015.7 — 2017.7',
-      description: '负责未立项产品前期调研，已有产品线日常运营，新项目功能设计和规划。',
       highlight: '侧边栏充值占渠道 10%',
-      tags: ['官网门户', '游戏侧边栏', 'H5游戏', 'App']
+      tags: ['官网门户', '平台工具', 'App', '竞品分析'],
+      responsibilities: [
+        '负责未立项产品的前期竞品调研和可行性分析，包括团队协作工具和海淘转运方向。',
+        '负责已有产品线的日常运营和活动策划，包括论坛活动和平台周年庆活动。',
+        '负责新项目的功能设计和规划，跨部门组织评审会议，跟进项目进度，向上级汇报。',
+      ],
+      projects: [
+        {
+          name: '游戏侧边栏',
+          status: '已上线',
+          details: [
+            '功能设计：独立完成产品调研以及功能规划，根据需求制作产品原型，组织会议确定功能评审及排期，定稿最终产品设计，跟进开发进度，推动测试最终上线。',
+            '数据监控：定期观察数据，大皇帝接入4个月，侧边栏的充值平均占当月所有渠道充值的10%。',
+            '项目成果：与各工作室人员合作，接入多款页游，例如大皇帝，女神联盟II，刀剑乱舞。',
+          ]
+        },
+        {
+          name: '官网改版',
+          status: '已上线',
+          details: [
+            '需求收集：负责前期的需求收集和记录，与各部门负责人确定功能点。',
+            '功能设计：规划部分功能，并组织会议进行需求会。',
+            '项目跟进：会议结束后确定项目排期，实时跟进项目进度。',
+            '项目收获：对用户积分和等级系统有更深入的体会。',
+          ]
+        },
+        {
+          name: 'H5小游戏App',
+          status: '未上线',
+          details: [
+            '产品设计：独立完成产品调研并进行功能评审，制作产品原型。',
+            '项目管理：跟踪产品的设计，开发，测试等各个环节，确保产品实现进度和质量，保证项目按时上线。',
+            '产品接入：为运营提供资料申请微博等第三方接入，提供App的名称，logo，slogan等方案以供选择。',
+          ]
+        }
+      ]
     },
   ]
 
@@ -125,24 +182,21 @@ function App() {
                 专注产品设计，从游戏到互联网再到 DeFi，积累了跨领域的实战经验。擅长从0到1搭建产品，对 AMM DEX、借贷协议、流动性挖矿等 DeFi 核心产品有深入理解。
               </p>
               <div className="flex flex-wrap gap-4">
-                <a href="#contact" className="btn-primary">
-                  联系我
+                <a href="/resume.pdf" className="btn-primary" download>
+                  下载简历 PDF
                 </a>
-                <a href="#experience" className="px-6 py-3 border-2 border-[#1A1A1A] hover:bg-[#1A1A1A] hover:text-white transition-all">
-                  查看经历
+                <a href="#contact" className="px-6 py-3 border-2 border-[#1A1A1A] hover:bg-[#1A1A1A] hover:text-white transition-all">
+                  联系我
                 </a>
               </div>
             </div>
             <div className="md:col-span-5 flex justify-center">
-              <div className="relative">
-                <div className="w-48 h-48 md:w-56 md:h-56 bg-[#1A1A1A] flex items-center justify-center">
-                  <span className="text-6xl md:text-7xl text-white" style={{ fontFamily: 'Playfair Display, serif' }}>
-                    雅
-                  </span>
-                </div>
-                <div className="absolute -bottom-3 -right-3 w-24 h-24 bg-[#E63946] flex items-center justify-center">
-                  <span className="text-white text-xs font-bold">PM</span>
-                </div>
+              <div className="w-64 h-64 md:w-80 md:h-80 border-2 border-[#1A1A1A]">
+                <img
+                  src="/images/avatar.jpg"
+                  alt="李雅晴"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>
@@ -209,6 +263,17 @@ function App() {
                     <span>13917261487</span>
                   </div>
                 </div>
+                <h3 className="font-bold mt-8 mb-6" style={{ fontFamily: 'Playfair Display, serif' }}>证书资质</h3>
+                <div className="space-y-4">
+                  <div className="border-l-2 border-[#E0E0E0] pl-4">
+                    <div className="font-semibold">PMP</div>
+                    <div className="text-sm text-[#666666]">项目管理专业人士资格认证</div>
+                  </div>
+                  <div className="border-l-2 border-[#E0E0E0] pl-4">
+                    <div className="font-semibold">CET-4</div>
+                    <div className="text-sm text-[#666666]">大学英语四级</div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -226,27 +291,71 @@ function App() {
 
           <div className="space-y-8">
             {experiences.map((exp, index) => (
-              <div key={index} className="card p-8">
-                <div className="flex flex-col md:flex-row md:items-start justify-between gap-6">
+              <div key={index} className="card p-8 border-2 border-[#1A1A1A]">
+                {/* Header */}
+                <div className="flex flex-col md:flex-row md:items-start justify-between gap-4 mb-6">
                   <div className="flex-1">
                     <div className="flex items-center gap-4 mb-2">
                       <h3 className="text-2xl font-bold" style={{ fontFamily: 'Playfair Display, serif' }}>{exp.title}</h3>
                       <span className="tag">{exp.period}</span>
                     </div>
-                    <div className="text-[#E63946] font-medium mb-3">{exp.company}</div>
-                    <p className="text-[#666666] leading-relaxed mb-4">{exp.description}</p>
-                    <div className="flex flex-wrap gap-2">
-                      {exp.tags.map((tag, i) => (
-                        <span key={i} className="tag">{tag}</span>
-                      ))}
-                    </div>
+                    <div className="text-[#E63946] font-medium">{exp.company}</div>
                   </div>
-                  <div className="md:text-right shrink-0">
+                  <div className="shrink-0">
                     <div className="inline-block px-4 py-2 bg-[#1A1A1A] text-white text-sm">
                       {exp.highlight}
                     </div>
                   </div>
                 </div>
+
+                {/* 工作职责 */}
+                <div className="border border-[#E0E0E0] p-6 mb-6">
+                  <div className="text-sm text-[#E63946] mb-4 tracking-widest uppercase font-medium">工作职责</div>
+                  <ul className="space-y-3">
+                    {exp.responsibilities.map((item, i) => (
+                      <li key={i} className="text-[#666666] leading-relaxed pl-4 border-l-2 border-[#E0E0E0]">{item}</li>
+                    ))}
+                  </ul>
+                </div>
+
+                {/* 项目经验 (游族网络) */}
+                {exp.projects && (
+                  <div className="border border-[#E0E0E0] p-6 mb-6">
+                    <div className="text-sm text-[#E63946] mb-4 tracking-widest uppercase font-medium">项目经验</div>
+                    <div className="space-y-6">
+                      {exp.projects.map((project, pIndex) => (
+                        <div key={pIndex} className="border border-[#E0E0E0] p-4">
+                          <div className="flex items-center gap-3 mb-3">
+                            <span className="font-bold" style={{ fontFamily: 'Playfair Display, serif' }}>{project.name}</span>
+                            <span className={`tag ${project.status === '已上线' ? 'bg-green-100 border-green-300' : 'bg-yellow-100 border-yellow-300'}`}>
+                              {project.status}
+                            </span>
+                          </div>
+                          <ul className="space-y-2">
+                            {project.details.map((detail, dIndex) => (
+                              <li key={dIndex} className="text-[#666666] text-sm leading-relaxed pl-4 border-l-2 border-[#E0E0E0]">{detail}</li>
+                            ))}
+                          </ul>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {/* 技术标签 */}
+                <div className="flex flex-wrap gap-2">
+                  {exp.tags.map((tag, i) => (
+                    <span key={i} className="tag">{tag}</span>
+                  ))}
+                </div>
+
+                {/* 成果 */}
+                {exp.achievements && (
+                  <div className="mt-6 pt-6 border-t-2 border-[#1A1A1A]">
+                    <div className="text-sm text-[#E63946] mb-2 tracking-widest uppercase font-medium">成果</div>
+                    <p className="text-[#1A1A1A] font-medium">{exp.achievements}</p>
+                  </div>
+                )}
               </div>
             ))}
           </div>
@@ -320,24 +429,30 @@ function App() {
             期待与您交流，共同探讨产品之道
           </p>
 
-          <div className="flex flex-col md:flex-row justify-center gap-6 mb-16">
+           <div className="grid md:grid-cols-2 gap-6 mb-16 max-w-2xl mx-auto">
             <a
               href="mailto:549855748@qq.com"
-              className="card px-8 py-4 flex items-center justify-center gap-3 hover:bg-[#1A1A1A] hover:text-white transition-all"
+              className="card px-8 py-6 flex items-center justify-center gap-4 hover:bg-[#1A1A1A] hover:text-white transition-all border-2 border-[#1A1A1A]"
             >
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              <svg className="w-6 h-6 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
               </svg>
-              <span>549855748@qq.com</span>
+              <div className="text-left">
+                <div className="text-xs text-[#666666] tracking-widest uppercase mb-1">邮箱</div>
+                <span className="font-medium">549855748@qq.com</span>
+              </div>
             </a>
             <a
               href="tel:13917261487"
-              className="card px-8 py-4 flex items-center justify-center gap-3 hover:bg-[#1A1A1A] hover:text-white transition-all"
+              className="card px-8 py-6 flex items-center justify-center gap-4 hover:bg-[#1A1A1A] hover:text-white transition-all border-2 border-[#1A1A1A]"
             >
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+              <svg className="w-6 h-6 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
               </svg>
-              <span>13917261487</span>
+              <div className="text-left">
+                <div className="text-xs text-[#666666] tracking-widest uppercase mb-1">电话</div>
+                <span className="font-medium">13917261487</span>
+              </div>
             </a>
           </div>
 
